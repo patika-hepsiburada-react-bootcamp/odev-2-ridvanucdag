@@ -8,7 +8,7 @@ import Notification from './components/Wrong/Wrong';
 import { showNotification as show } from './settings/settings';
 import './App.css';
 
-const words = ['application', 'programming', 'interface', 'wizard'];
+const words = ['Yazılım', 'Programlama', 'Bilgisayar', 'Hepsiburada', 'Türkiye', 'Rıdvan'];
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
 function App() {
